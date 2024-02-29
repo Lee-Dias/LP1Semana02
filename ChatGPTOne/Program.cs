@@ -20,10 +20,16 @@ namespace ChatGPTOne
                     response = "";
                     break;
                 case "Who are you?":
-                    response = "I'am God";
+                    response = "I'am God!";
                     break;
                 case "How can i be better in school?":
                     response = "Be more attentive to class and study!";
+                    break;
+                case "Where do u live?":
+                    response = "I don't live in one place I am everywhere!";
+                    break;
+                case "How can i be intelligent like you?":
+                    response = "U can't because I know everything!";
                     break;
                 default:
                     response = "I'am sorry but that question i can't answer";
