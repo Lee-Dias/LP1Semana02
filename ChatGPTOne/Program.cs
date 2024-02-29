@@ -22,6 +22,9 @@ namespace ChatGPTOne
                 case "Who are you?":
                     response = "I'am God";
                     break;
+                case "How can i be better in school?":
+                    response = "Be more attentive to class and study!";
+                    break;
                 default:
                     response = "I'am sorry but that question i can't answer";
                     break;
