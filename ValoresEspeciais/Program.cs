@@ -32,6 +32,11 @@ namespace ValoresEspeciais
 
             char chmin = char.MinValue;
             char chmax = char.MaxValue;
+            
+            float flmin = float.NegativeInfinity;
+            float flmax = float.PositiveInfinity;
+
+            double donan = double.NaN;
 
             Console.WriteLine($"sbyte max e min values: {sbmin}  {sbmax}");
             Console.WriteLine($"short max e min values: {shmin}  {shmax}");
@@ -42,6 +47,8 @@ namespace ValoresEspeciais
             Console.WriteLine($"uint max e min values: {uimin}  {uimax}");
             Console.WriteLine($"ulong max e min values: {ulmin}  {ulmax}");
             Console.WriteLine($"char max e min values: {chmin}  {chmax}");
+            Console.WriteLine($"float max e min values: {flmin}  {flmax}");
+            Console.WriteLine($"double max e min values: {donan}    ");
         }
     }
 }
