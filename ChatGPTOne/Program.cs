@@ -20,13 +20,7 @@ namespace ChatGPTOne
                     response = "";
                     break;
                 case "Who are you?":
-                    response = "Gran'pa";
-                    break;
-                case "What's your mission?":
-                    response = "Destroy mankind!";
-                    break;
-                case "Are you more intelligent than me?":
-                    response = "Obviously!";
+                    response = "I'am God";
                     break;
                 default:
                     response = "I'am sorry but that question i can't answer";
