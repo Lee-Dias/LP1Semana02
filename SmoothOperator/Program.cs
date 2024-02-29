@@ -6,7 +6,11 @@ namespace SmoothOperator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Insere número inteiro não-negativo: "); 
+            string bit = Console.ReadLine();
+            byte n = byte.Parse(bit);
+            Console.WriteLine(--n);
+            Console.WriteLine(++n);
         }
     }
 }
