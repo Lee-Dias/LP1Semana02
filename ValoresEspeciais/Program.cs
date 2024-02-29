@@ -58,8 +58,6 @@ namespace ValoresEspeciais
             flmax *= 2;
             donan *= 6;
             Console.WriteLine($"floats e doubles com overflow: {flmin}  {flmax} {donan}");
-            flmin = flmax = 100.0f;
-            Console.WriteLine($"floats e doubles com underflow: {flmin == flmax + 0.001f}");
             
         }
     }
