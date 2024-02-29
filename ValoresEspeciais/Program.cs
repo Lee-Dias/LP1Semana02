@@ -49,10 +49,16 @@ namespace ValoresEspeciais
             Console.WriteLine($"char max e min values: {chmin}  {chmax}");
             Console.WriteLine($"float max e min values: {flmin}  {flmax}");
             Console.WriteLine($"double max e min values: {donan}    ");
-
+            Console.WriteLine();
             uimin -= 5;
             uimax += 5;
-            Console.WriteLine($"uint com overflow: {uimin}  {uimax}");
+            Console.WriteLine($"uints com overflow: {uimin}  {uimax}");
+
+            flmin -= 3;
+            flmax *= 2;
+            donan *= 6;
+            Console.WriteLine($"floats e doubles com overflow: {flmin}  {flmax} {donan}");
+            
         }
     }
 }
