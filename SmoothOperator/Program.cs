@@ -11,6 +11,8 @@ namespace SmoothOperator
             byte n = byte.Parse(bit);
             Console.WriteLine(--n);
             Console.WriteLine(++n);
+            Console.WriteLine(n/2);
+            Console.WriteLine(n<<3);
         }
     }
 }
