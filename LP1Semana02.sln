@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoresEspeciais", "Valores
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTZero", "ChatGPTZero\ChatGPTZero.csproj", "{82E9BCBE-6FAF-4D15-9495-479B267B6D84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{EFB259B8-D53A-410F-8AC1-69238EB318FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfExample", "ifExample\IfExample.csproj", "{3DBA5552-1617-483C-8DAD-20B5E8E412AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{82E9BCBE-6FAF-4D15-9495-479B267B6D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82E9BCBE-6FAF-4D15-9495-479B267B6D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82E9BCBE-6FAF-4D15-9495-479B267B6D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB259B8-D53A-410F-8AC1-69238EB318FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB259B8-D53A-410F-8AC1-69238EB318FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB259B8-D53A-410F-8AC1-69238EB318FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB259B8-D53A-410F-8AC1-69238EB318FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBA5552-1617-483C-8DAD-20B5E8E412AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBA5552-1617-483C-8DAD-20B5E8E412AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBA5552-1617-483C-8DAD-20B5E8E412AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBA5552-1617-483C-8DAD-20B5E8E412AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
