@@ -6,10 +6,14 @@ namespace Cilindro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Indique uma altura para um cilindro: ");
-            string a = Console.ReadLine();
-            Console.WriteLine("Indique um raio para um cilindro: ");
-            string r = Console.ReadLine();
+            Console.Write("Indique uma altura para um cilindro: ");
+            string area = Console.ReadLine();
+            Console.Write("Indique um raio para um cilindro: ");
+            string rai = Console.ReadLine();
+            float a = float.Parse(area);
+            float r = float.Parse(rai);
+            float v = MathF.PI*MathF.Pow(r,2)*a;
+            Console.WriteLine($"Volume do cilindro {v}");
         }
     }
 }
